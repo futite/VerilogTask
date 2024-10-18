@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN R4 [get_ports clk]
+set_property PACKAGE_PIN U2 [get_ports rst_n]
+set_property PACKAGE_PIN U5 [get_ports uart_rx]
+set_property PACKAGE_PIN T6 [get_ports uart_tx]
+set_property IOSTANDARD LVCMOS18 [get_ports clk]
+set_property IOSTANDARD LVCMOS18 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS18 [get_ports uart_rx]
+set_property IOSTANDARD LVCMOS18 [get_ports uart_tx]

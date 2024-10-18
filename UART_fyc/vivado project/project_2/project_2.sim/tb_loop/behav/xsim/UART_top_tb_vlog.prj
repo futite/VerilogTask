@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../UARTme/rtl/UART_rx.sv" \
+"../../../../../../../UARTme/rtl/UART_top.sv" \
+"../../../../../../../UARTme/rtl/UART_tx.sv" \
+"../../../../../../../UARTme/rtl/rx_clk_gen.sv" \
+"../../../../../../../UARTme/rtl/tx_clk_gen.sv" \
+"../../../../../../../UARTme/tb/UART_top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

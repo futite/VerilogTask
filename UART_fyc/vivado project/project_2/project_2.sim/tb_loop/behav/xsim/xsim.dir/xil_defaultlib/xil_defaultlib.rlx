@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/VerilogCodeSelf/UARTme/rtl/UART_rx.sv,1728478375,systemVerilog,,D:/VerilogCodeSelf/UARTme/rtl/UART_top.sv,D:/VerilogCodeSelf/UARTme/rtl/define.sv,UART_rx,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/rtl/UART_top.sv,1728547273,systemVerilog,,D:/VerilogCodeSelf/UARTme/rtl/UART_tx.sv,D:/VerilogCodeSelf/UARTme/rtl/define.sv,UART_top,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/rtl/UART_tx.sv,1728375465,systemVerilog,,D:/VerilogCodeSelf/UARTme/rtl/rx_clk_gen.sv,D:/VerilogCodeSelf/UARTme/rtl/define.sv,UART_tx,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/rtl/define.sv,1728483425,verilog,,,,,,,,,,,,
+D:/VerilogCodeSelf/UARTme/rtl/rx_clk_gen.sv,1728546223,systemVerilog,,D:/VerilogCodeSelf/UARTme/rtl/tx_clk_gen.sv,D:/VerilogCodeSelf/UARTme/rtl/define.sv,rx_clk_gen,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/rtl/tx_clk_gen.sv,1728371335,systemVerilog,,D:/VerilogCodeSelf/UARTme/tb/UART_top_tb.sv,D:/VerilogCodeSelf/UARTme/rtl/define.sv,tx_clk_gen,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/tb/UART_top_tb.sv,1728547318,systemVerilog,,,D:/VerilogCodeSelf/UARTme/tb/define.sv,UART_top_tb,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/tb/define.sv,1728483416,verilog,,,,,,,,,,,,
+D:/VerilogCodeSelf/Vivado/URAT/project_2/project_2.sim/tb_loop/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,

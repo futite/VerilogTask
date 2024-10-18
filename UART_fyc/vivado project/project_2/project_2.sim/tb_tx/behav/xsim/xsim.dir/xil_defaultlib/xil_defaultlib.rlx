@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/VerilogCodeSelf/UARTme/rtl/UART_tx.sv,1728014303,systemVerilog,,D:/VerilogCodeSelf/UARTme/rtl/tx_clk_gen.sv,,UART_tx,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/rtl/tx_clk_gen.sv,1728014826,systemVerilog,,D:/VerilogCodeSelf/UARTme/tb/UART_tx_tb.sv,,tx_clk_gen,,uvm,,,,,,
+D:/VerilogCodeSelf/UARTme/tb/UART_tx_tb.sv,1728014893,systemVerilog,,,,UART_tx_tb,,uvm,,,,,,
+D:/VerilogCodeSelf/Vivado/URAT/project_2/project_2.sim/tb_tx/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,

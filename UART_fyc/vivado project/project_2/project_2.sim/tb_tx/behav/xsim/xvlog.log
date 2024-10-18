@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VerilogCodeSelf/UARTme/rtl/UART_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VerilogCodeSelf/UARTme/rtl/tx_clk_gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tx_clk_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VerilogCodeSelf/UARTme/tb/UART_tx_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_tx_tb
