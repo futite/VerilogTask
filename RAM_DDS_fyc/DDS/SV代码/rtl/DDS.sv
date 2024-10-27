@@ -25,12 +25,12 @@ always_ff @( posedge clk or negedge rst_n ) begin
         P_add <= P_add + F_reg;  
 end
 
-logic [11:0] P_reg; //相位控制寄存器 存储Pword
+logic [`ADDR_WIDTH-1:0] P_reg; //相位控制寄存器 存储Pword
 always_ff @( posedge clk ) begin 
         P_reg <= Pword; 
 end
 
-logic [11:0] P_now;
+logic [`ADDR_WIDTH-1:0] P_now;
 //logic [11:0] P_now_reg;
 // always_ff @( posedge clk or negedge rst_n ) begin 
 //     if (!rst_n)
@@ -40,17 +40,17 @@ logic [11:0] P_now;
 // end
 
 //logic addr_reg;
-
+logic [10:0] sum; 
 always_ff @( posedge clk or negedge rst_n) begin 
     if (!rst_n) begin
         P_now <= '0;
     end
     else begin
-    //P_now_reg <= P_add[12:3] + P_reg;   
+    sum <= P_add[12:3] + P_reg;   
     case (WAVE_TYPE)
-    "tri": P_now <= (P_add[12:3] + P_reg)%1024;//{2'b00,(P_add[12:3])+P_reg};//
-    "sin": P_now <= (P_add[12:3] + P_reg)%1024+1024;
-    "squ": P_now <= ((P_add[12:3] + P_reg)%1024+2048);//{2'b10,(P_add[12:3])+P_reg};//
+    "tri": P_now <= sum[10]? (sum-1024) : sum;//(P_add[12:3] + P_reg)%1024;//{2'b00,(P_add[12:3])+P_reg};//
+    "sin": P_now <= sum[10]? (sum) : sum+1024;//(P_add[12:3] + P_reg)%1024+1024;
+    "squ": P_now <= sum[10]? (sum+1024) : sum+2048;//((P_add[12:3] + P_reg)%1024+2048);//{2'b10,(P_add[12:3])+P_reg};//
         default;
     endcase
 end
