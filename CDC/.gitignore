@@ -1,0 +1,6 @@
+/04_fpga/*async_fifo*/
+/04_fpga/*cdc_sbit*/
+/03_spec/*.md
+/03_spec/*.png
+/01_rtl/cdc_sbit.sv
+/02_sim/cdc_sbit_tb.sv
